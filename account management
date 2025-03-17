@@ -1,0 +1,39 @@
+/*caren chebet
+Reg no:BBIT-05-0035/2024
+Date 10 Mar 2025*/
+
+#include<iostream>
+using namespace std;
+struct customer{
+string name;
+double accountbalance;
+string lasttransaction;
+
+void displaycustomer(const customer& c){
+cout<<"name"<<endl;
+cout<<"accountbalance"<<endl;
+cout<<"lasttransaction"<<endl;
+}
+};
+int main(){
+
+customer cl;
+
+
+cout<<"name:"<<cl.name<<endl;
+cin>> cl.name;
+cout<<"accountbalance: "<<cl.accountbalance<<endl;
+cin>>cl.accountbalance;
+cout<<"lasttransaction: "<<cl.lasttransaction<<endl;
+cin>>cl.lasttransaction;
+
+
+customer c2;
+cout<<"name:<<c2.name<<endl;
+cin>>c2.name;
+cout<<"accountbalance:"<<c2.accountbalance<<endl;
+cin>>c2.accountbalance;
+cout<<"lasttransaction:"<<c2.lasttransaction<<endl;
+cin>>c2.lasttransaction;
+return 0;
+}
