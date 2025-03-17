@@ -1,0 +1,38 @@
+/a program on structure
+/*Authour:caren chebet
+Reg no BBIT-05-0035/2024
+  Date:10 Mar 2025*/
+
+#include<iostream>
+using namespace std;
+struct patient{
+string name;
+int age;
+string diagnosis;
+
+void displaypatients(const patient&p){
+
+cout<<"name"<<endl;
+cout<<"age"<<endl;
+cout<<"diagnosis"<<endl;
+}
+};
+int main(){
+  patient pl;
+cout<<"name:"<<pl.name<<endl;
+cin>>pl.name;
+cout<<"age:"<<endl;
+cin>>pl.age;
+cout<<"diagnosis:"<<pl.diagnosis<<endl;
+cin>>pl.diagnosis;
+
+patient p2;
+cout<<"name:"<<p2.name<<endl;
+cin>>p2.name;
+cout<<"age:"<<p2.age<<endl;
+cin>>p2.name;
+cout<<"diagnosis;"<<p2.diagnosis<<endl;
+cin>>p2.diagnosis;
+
+return 0;
+}
